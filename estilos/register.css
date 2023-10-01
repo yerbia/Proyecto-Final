@@ -8,7 +8,7 @@
 .main-register {
   font-family: "Inter", sans-serif;
   width: 1023px;
-  height: 526.06px;
+  height: 580px;
   margin: 0 auto;
   top: 180px;
   left: 208.5px;
@@ -42,17 +42,17 @@ h3 {
 }
 
 .formulario > div {
-  display: inline-block;
-  width: 29%;
-  margin-top: 10px;
+  width: 70%;
+  margin-top: 100px;
+  margin-left: 300px;
 }
 
 label {
   display: inline-block;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: 400;
   line-height: 29px;
-  width: 50%;
+  width: 48%;
 }
 
 select {
@@ -67,7 +67,7 @@ select {
 }
 
 form div {
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 
 #form-select-license {
@@ -169,8 +169,7 @@ form div {
 
 input[type="submit"] {
   font-size: 14px;
-  line-height: 17px;
-  font-weight: 600;
+  line-height: 17px;  
   color: #ffffff;
   padding: 14px 23px;
   background-color: #ff3333;
@@ -178,25 +177,44 @@ input[type="submit"] {
 }
 
 input[type="text"] {
-  font-size: 20px;
-  line-height: 27px;
-  color: #B9B9B9;    
+  font-size: 18px;
+  line-height: 30px;
   border-bottom: 2px solid #ff3333;
   border-top: none;
   border-left: none;
   border-right: none;
-  width: 47%;
+  width: 49%;
 }
 
 input[type="password"] {
   font-size: 20px;
-  line-height: 27px;
-  color: #B9B9B9;    
+  line-height: 30px;
   border-bottom: 2px solid #ff3333;
   border-top: none;
   border-left: none;
   border-right: none;
-  width: 47%;
+  width: 49%;  
+}
+
+input[type="checkbox"] {
+  font-size: 50px;
+  line-height: 30px;
+  margin-left: 30px;   
+  font: inherit;
+  color: currentColor;
+  border: 1em solid currentColor;
+  border-radius: 0.15em;  
+}
+
+::placeholder {
+  color: #E0E0E0;
+  opacity: 1; /* Firefox */
+  letter-spacing: 1px;
+}
+
+::-ms-input-placeholder { /* Edge 12 -18 */
+  color: #E0E0E0;
+  letter-spacing: 1px;
 }
 
 .editar-boton-modificar {
@@ -213,4 +231,17 @@ input[type="password"] {
   top: 56px;
   margin: 0 auto;
   position: relative;
+}
+
+.terminos {  
+  top: 16px;  
+  position: relative;
+  font-size: 18px;
+}
+
+.terminos a { 
+  position: relative;
+  font-size: 18px;
+  text-decoration: none;
+  color: #1D84B5;
 }
