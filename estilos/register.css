@@ -18,8 +18,11 @@
 }
 
 form {
-  display: flex;
-  flex-wrap: wrap;
+  width: 457.2px;
+  height: 292px;
+  top: 95px;
+  left: 292px;
+  position: relative;
 }
 
 h1.register {
@@ -38,10 +41,18 @@ h3 {
   letter-spacing: 1px;   
 }
 
+.formulario > div {
+  display: inline-block;
+  width: 29%;
+  margin-top: 10px;
+}
+
 label {
+  display: inline-block;
   font-size: 24px;
   font-weight: 400;
   line-height: 29px;
+  width: 50%;
 }
 
 select {
@@ -164,6 +175,28 @@ input[type="submit"] {
   padding: 14px 23px;
   background-color: #ff3333;
   border: none;
+}
+
+input[type="text"] {
+  font-size: 20px;
+  line-height: 27px;
+  color: #B9B9B9;    
+  border-bottom: 2px solid #ff3333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 47%;
+}
+
+input[type="password"] {
+  font-size: 20px;
+  line-height: 27px;
+  color: #B9B9B9;    
+  border-bottom: 2px solid #ff3333;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 47%;
 }
 
 .editar-boton-modificar {
