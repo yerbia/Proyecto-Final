@@ -1,43 +1,143 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Clase N°5 -  CSS INicial </title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./index.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    </head>
-    <body>
-      
-        <h1> Hola Mundo!!! <i class="fa-solid fa-user" style="color: #30b079;"></i> </h1>
-        <h2>Hola como estan?? <iconify-icon icon="material-symbols:adb"></iconify-icon>  </h2>
-        <article>
-            <p>
-                <iconify-icon icon="material-symbols:adb" style="color: #5fb;" rotate="90deg" flip="horizontal"></iconify-icon> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi reiciendis, excepturi iure hic nulla explicabo qui numquam quaerat saepe maxime dolorum architecto accusantium, itaque quis inventore ullam eligendi fuga. Ipsam.
-            </p>
-        </article>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/index.css">
+    <link rel="stylesheet" href="estilos/header.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <title>Funkoshop - Inicio</title>
+</head>
+<body>
 
-        <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur doloribus non quaerat tenetur? Dolore non quasi beatae voluptatibus, accusamus iusto doloremque earum quibusdam. Tempora ipsa blanditiis magnam ducimus. Voluptatibus, numquam.</span>
-        
+   <!-- INICIO HEADER -->
+   <header>  
+    <nav class="header-navbar">
+        <div class="header-navbar-container">
+            <a class="header-navbar-logo" href="index.html">
+                <img src="multimedia/branding/logo_light_horizontal.svg" alt="logo"> 
+            </a>
+            <ul class="header-navbar-nav">
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="shop.html">SHOP <img src="assets/img/piquito.png"></a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="#">CONTACTO</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="admin.html">LOGIN</a>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="#">SALIR</a>
+                </li>
+                </li>
+                <li class="header-nav-item">
+                    <a class="header-nav-link" href="shop.html"><img src="assets/img/cart-icon.png"></a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+</header>
+<!-- FIN HEADER -->
+    <main>
+        <section>
+            <div class="banner-section">
+                <img src="./multimedia/funkos-banner.webp" alt="banner-funkos" class="banner"> 
+            </div>   
+            <div class="card-banner">
+                <h2 class="titulo-banner">Nuevos Ingresos</h2> 
+                <p class="texto-banner">Descubrí el próximo Funko Pop de tu colección </p>
+                <button type="button" class="boton-shop">SHOP</button>
+            </div> 
+        </section>
 
-        <main>
-            <section class="parrafo">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ducimus, illum soluta similique harum asperiores aliquam beatae voluptate sapiente dicta sit mollitia eos id, commodi veniam quaerat fuga rem atque?
-                </p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque iusto consequuntur praesentium nisi vel consequatur facere tenetur labore voluptas architecto, at maiores consectetur quod reprehenderit totam recusandae ipsum ullam exercitationem.</p>
-            </section>
-        </main>
+        <section class="selection">
+            <div class="card-section">
+                <h2 class="titulo-section">STAR WARS &</h2>
+                <h2 class="titulo-section">THE MANDALORIAN</h2>
+                <p class="description-section">Disfruta de una saga que sigue <br> agregando personajes a su colección </p>
+                <button type="button" class="boton-coleccion">VER COLECCIÓN</button>
+            </div>
+            <picture class="funko-imagen">
+                <img src="./multimedia/star-wars/baby-yoda-1.webp" alt="imagen baby yoda" >
+            </picture>
+        </section>
 
+        <section class="selection">
+            <div class="card-section">
+                <h2 class="titulo-section">POKEMON INDIGO</h2>
+                <p class="description-section">Atrapa todos los que puedas y disfruta <br> de una colección llena de amigos </p>
+                <button type="button" class="boton-coleccion">VER COLECCIÓN</button>
+            </div>
+            <picture class="funko-imagen">
+                <img src="./multimedia/pokemon/vulpix-1.webp" alt="imagen vulpix" >
+            </picture>
+        </section>
 
+        <section class="selection">
+            <div class="card-section">
+                <h2 class="titulo-section">HARRY POTTER</h2>
+                <p class="description-section">Revive los recuerdos de una saga llena <br> de magia y encanto</p>
+                <button type="button" class="boton-coleccion">VER COLECCIÓN</button>
+            </div>
+            <picture class="funko-imagen">
+                <img src="./multimedia/harry-potter/snape-patronus-1.webp" alt="imagen snape patronus" >
+            </picture>
+        </section>
 
+       <section> 
+        <div class="container__funkoItem">
+            <div class="funkoItem">
+              <p class="p__nuevo">NUEVO</p>
+              <img src="./multimedia/star-wars/trooper-1.webp" alt="" />
+              <h6 class="m-bottom-13">STAR WARS</h6>
+              <h5 class="m-bottom-13">STORMTROOPER LIGHTSABER</h5>
+              <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+              <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+            </div>
+            <div class="funkoItem">
+              <p class="p__nuevo">NUEVO</p>
+              <img src="./multimedia/pokemon/pidgeotto-1.webp" alt="" />
+              <h6 class="m-bottom-13">POKEMON</h6>
+              <h5 class="m-bottom-13">PIDGEOTTO</h5>
+              <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+              <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+            </div>
+            <div class="funkoItem">
+              <p class="p__nuevo">NUEVO</p>
+              <img src="./multimedia/harry-potter/luna-1.webp" alt="" />
+              <h6 class="m-bottom-13">HARRY POTTER</h6>
+              <h5 class="m-bottom-13">LUNA LOVEGOOD LION MASK</h5>
+              <p class="p__precio m-bottom-13">$ 1799,99.-</p>
+              <p class="p__cuotas m-bottom-13">3 CUOTAS SIN INTERÉS</p>
+            </div>
+        </div> 
+        </section>  
+    </main>
 
-        <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-        <script src="" async defer></script>
-    </body>
+    <!-- INICIO FOOTER -->
+    <footer>
+        <nav class="footer-navbar">
+            <ul class="footer-navbar-nav">
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">SHOP</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="register.html">REGISTRARSE</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">INGRESAR</a>
+                </li>
+                <li class="footer-nav-item">
+                    <a class="footer-nav-link" href="#">CONTACTO</a>
+                </li>
+            </ul>
+            <p class="texto-footer">All rights reserved 2023 - Funkoshop &copy;</p> 
+            <img class="logo-footer" src="multimedia/branding/isotype.svg" alt="logo-funko">
+        </nav>
+    </footer>
+    <!-- FIN FOOTER -->
+
+</body>
 </html>
