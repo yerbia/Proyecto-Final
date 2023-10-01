@@ -1,2 +1,2 @@
-# Funkoshop
-Proyecto Final - Node JS
+# Proyecto Final - Node JS
+Javier Franco / Página Register
