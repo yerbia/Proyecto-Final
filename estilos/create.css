@@ -8,7 +8,6 @@
 .main-register {
   font-family: "Inter", sans-serif;
   width: 1023px;
-  height: 580px;
   margin: 0 auto;
   top: 180px;
   left: 208.5px;
@@ -18,19 +17,20 @@
 }
 
 form {
-  width: 457.2px;
-  height: 292px;
-  top: 95px;
-  left: 292px;
+  width: 827.63px;
+  height: 669.3px;
+  top: 80px;  
   position: relative;
 }
 
-h1.register {
+h1.crear {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 42px;
   line-height: 49.31px;
-  letter-spacing: 1px;   
+  letter-spacing: 1px; 
+  top: 36px;
+  position: relative;  
 }
 
 h3 {
@@ -41,22 +41,36 @@ h3 {
   letter-spacing: 1px;   
 }
 
-.formulario > div {
+.form-crear > div {
   width: 70%;
-  margin-top: 100px;
-  margin-left: 300px;
+  margin-top: 100px;  
 }
 
 label {
   display: inline-block;
   font-size: 23px;
   font-weight: 400;
-  line-height: 29px;
-  width: 48%;
+  line-height: 29px;  
 }
 
 form div {
   margin-bottom: 30px;
+}
+
+select {
+  font-size: 18px;
+  color: #E0E0E0;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-left: 19px;
+  border: solid 2px #30343f;
+  border-radius: 6px;
+  width: 243.03px;
+  padding: 7px 10px;
+  background: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg?width=54') no-repeat center right / contain;
+  content: url('https://api.iconify.design/material-symbols/arrow-drop-down-rounded.svg?width=54');
+  -webkit-appearance: none;
+  -moz-appearance: none;
 }
 
 input[type="submit"] {
@@ -111,18 +125,11 @@ input[type="checkbox"] {
 
 .encabezado {  
   top: 36px;
-  margin: 0 auto;
-  position: relative;
-}
-
-.texto-complementario {  
-  top: 56px;
-  margin: 0 auto;
   position: relative;
 }
 
 .terminos {  
-  top: 16px;  
+  top: 0px;  
   position: relative;
   font-size: 18px;
 }
@@ -132,4 +139,16 @@ input[type="checkbox"] {
   font-size: 18px;
   text-decoration: none;
   color: #1D84B5;
+}
+
+.descripcion {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;  
+  border: 1px solid #1F1F1F;  
+  width: 827.63px;
+  height: 194.83px;
+  border-radius: 4px; 
+  padding: 10px;
+  color: #000000;  
+  letter-spacing: 1px;
 }

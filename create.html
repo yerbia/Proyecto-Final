@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/register.css">
+    <link rel="stylesheet" href="estilos/create.css">
     <link rel="stylesheet" href="estilos/header.css">
     <link rel="stylesheet" href="estilos/footer.css">
-    <script src="https://kit.fontawesome.com/cd152692ec.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
     <title>Crear Nuevo Item | Funkoshop</title>
 </head>
 <body>
@@ -28,7 +28,6 @@
                     </li>
                     <li class="header-nav-item">
                         <a class="header-nav-link" href="#">SALIR</a>
-                    </li>
                     </li>                    
                 </ul>
             </div> 
@@ -38,33 +37,42 @@
 
      
     <div class="main-register">
-        <div class="encabezado">
-            <h1 class="register">CREA TU CUENTA</h1>
-        </div>        
-        <div class="texto-complementario">
-            <h3>Completa el formulario para ser parte del mundo de los Funkos</h3>
-        </div>
-        <div class="formulario">
-            <form id="reg-form">
+        <h1 class="crear">CREAR NUEVO ITEM</h1>
+        <div class="form-crear">
+            <form id="create-form">
+            <span>
+                <label for="Categoría">Categoría:</label>              
+                <select class="select">
+                    <option disabled selected>Seleccionar</option>
+                    <option>Opción 1</option>
+                    <option>Opción 2</option>
+                    <option>Opción 3</option>
+                </select>              
+            </span>
+            <span>
+                <label for="Licencia">Licencia:</label>
+                <select class="select">
+                    <option disabled selected>Seleccionar</option>
+                    <option>Opción 1</option>
+                    <option>Opción 2</option>
+                    <option>Opción 3</option>
+                </select>
+            </span>
+            <br><br><br>
             <div>
-              <label for="nombre">Nombre:</label>
-              <input type="text" id="name" placeholder="John"/>
+                <label for="Producto">Nombre del producto:</label>
+                <input type="text" id="producto" placeholder="Kakashi Hatake Shippuden Saga"/>
+            </div>
+            <div>              
+                <textarea class="descripcion" placeholder="Descripción del producto"></textarea>
             </div>
             <div>
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" placeholder="Doe" />
-              </div>
-            <div>
-              <label for="email">Email:</label>
-              <input type="text" id="email" placeholder="johndoe@correo.com"/>
+              <label for="SKU">SKU:</label>
+              <input type="text" id="sku" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
             </div>
             <div>
-              <label for="contraseña">Contraseña:</label>
-              <input type="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
-            </div>
-            <div>
-              <label for="repetir-contraseña">Repita Contraseña:</label>
-              <input type="password" id="password-again" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+              <label for="descuento">Descuento:</label>
+              <input type="text" id="descuento" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;"/>
             </div>            
           </form>
           <div class="terminos">
