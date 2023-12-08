@@ -1,3 +1,56 @@
+@import './base/basic.css';
+@import './library/collection.css';
+@import './library/slider.css';
+@import './library/card.css';
+@import './library/counter.css';
+
+.collection__content{
+    
+    gap: var(--spacing-20);
+}
+
+.collection__title{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.collection__description--item{
+    font-weight: 400;
+    font-size: var(--font-large);
+    font-family: var(--base-font);
+    font-weight: 400;
+}
+
+
+.cart__item{
+    height: var(--spacing-20);
+}
+
+.counter__item{
+    background-color: var(--dark-bg-solid);
+}
+
+.pay__content{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+}
+
+.pay__text{
+    font-family: var(--base-font);
+    font-size: var(--font-xsmall);
+    font-weight: 700;
+    color: var(--secondary-solid);
+}
+
+.pay__link{
+    text-decoration: underline;
+}
+
+.pay__promotion{
+    text-transform: uppercase;
+}
+
 *
 {
     margin: 0;

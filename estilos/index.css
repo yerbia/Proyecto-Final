@@ -6,8 +6,8 @@
 
 .banner
 {
-    width: 1349px;
-    height: 300px;
+    width: 1550px;
+    height: 800px;
     top: 144px;
     filter: brightness(50%);
 }
@@ -17,6 +17,8 @@
     position: relative;
     display: inline-block;
     text-align: left;
+    height: 300px;
+    overflow: hidden;
 }
  
 
