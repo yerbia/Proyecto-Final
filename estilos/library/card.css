@@ -34,6 +34,7 @@
 
 .card-item__cover img{
     animation: fade .7s;
+    width: 100%;
 }
 
 .card-item__img--back{
@@ -57,3 +58,4 @@
     position: absolute;
     right: 0;
 }
+
